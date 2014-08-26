@@ -46,15 +46,13 @@ int main(int argc, char *argv[])
 endsnippet
 
 snippet for "for loop (for)"
-for (${2:i} = 0; $2 < ${1:count}; ${3:++$2})
-{
+for (${2:i} = 0; $2 < ${1:count}; ${3:++$2}) {
 	${VISUAL}${0}
 }
 endsnippet
 
 snippet fori "for int loop (fori)"
-for (${4:int} ${2:i} = 0; $2 < ${1:count}; ${3:++$2})
-{
+for (${4:int} ${2:i} = 0; $2 < ${1:count}; ${3:++$2}) {
 	${VISUAL}${0}
 }
 endsnippet
@@ -84,7 +82,7 @@ snippet td "Typedef"
 typedef ${1:int} ${2:MyCustomType};
 endsnippet
 
-snippet wh "while loop"
+snippet "wh(ile)" "while loop" br
 while(${1:/* condition */}) {
 	${VISUAL}${0}
 }
